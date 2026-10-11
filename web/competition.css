@@ -1,0 +1,21 @@
+/* Quiet, text-labelled identity; inherits the current theme. */
+.competition-label{display:inline-block;font-size:12px;line-height:1.4;font-weight:600;letter-spacing:0;color:var(--ink,#292721);margin:0 12px 0 0;white-space:nowrap}
+html[data-competition] #reset-open,html[data-competition] #i4-context{display:none!important}
+@media(max-width:600px){.competition-label{display:block;margin:2px 0 0;font-size:12px}}
+/* Expanded composer controls occupy their own space; never cover Continue. */
+html[data-competition] .ss-expanded .ss-collapse{position:static;margin:4px 0 0 auto;min-width:44px}
+
+/* Deliberate competition-only clear: quiet entry, three explicit stages. */
+.competition-clear-entry{display:block;margin-top:24px;min-height:44px;color:var(--risk,#a93636);border:1px solid currentColor;background:transparent}
+.competition-clear{width:min(480px,calc(100vw - 32px));box-sizing:border-box;max-height:calc(100dvh - 32px);overflow:auto}
+.competition-clear h2{margin:0 0 16px;font-size:24px;line-height:1.3}
+.competition-clear p{line-height:1.6}
+.competition-clear label{display:block;margin:16px 0 8px}
+.competition-clear input{box-sizing:border-box;width:100%;min-height:48px;font:inherit;padding:10px;border:1px solid var(--line,#89877d);border-radius:10px;background:var(--paper,#fff);color:var(--ink,#292721)}
+.competition-clear [hidden]{display:none}
+.competition-clear-actions{display:flex;gap:12px;justify-content:flex-end;margin-top:24px;flex-wrap:wrap}
+.competition-clear-actions button{min-height:44px;min-width:88px}
+.competition-clear-danger{background:#a93636!important;color:#fff!important;border-color:#a93636!important}
+.competition-clear-danger:disabled{opacity:.5}
+.competition-clear-notice{font-size:14px;margin:0 0 20px;color:var(--ink,#292721)}
+.competition-clear :focus-visible{outline:3px solid var(--focus,#80601b);outline-offset:3px}

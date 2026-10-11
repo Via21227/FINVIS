@@ -1,0 +1,1206 @@
+{
+  "format": 1,
+  "scope": "Competition-only distribution; no historical model output/corpus or owner data",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 238,
+      "sha256": "d3741a45489684f76a005f2af2abcc2087129399171aef53a4fbda055bde62fc",
+      "origin": "Release documentation or synthetic verification"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 899,
+      "sha256": "ee0e7bf8f56c406991c261a161669d0b5575f2d24d88b8de1c6ae94e1037652a",
+      "origin": "Release documentation or synthetic verification"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8489,
+      "sha256": "66671665217656458a19af7279444989579d88f46f3e670654252308ca022c09",
+      "origin": "Release documentation or synthetic verification"
+    },
+    {
+      "path": "Start FINVIS Competition.cmd",
+      "bytes": 591,
+      "sha256": "2957df7b5fb47bbbfddb19d3b2def54125baf1231f42d2d8a39a17204e038b05",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "docs/PLATFORM_STATUS.md",
+      "bytes": 2517,
+      "sha256": "007394f90ca91d0c6731e3bdcc55ca6f46e1676b310cdf1f2aee0aec4a085eb3",
+      "origin": "Release documentation or synthetic verification"
+    },
+    {
+      "path": "docs/SECURITY_AND_LIMITATIONS.md",
+      "bytes": 2168,
+      "sha256": "d9b1ce80ea830b60ecef89f29d3ca277e9d3639fef523b88a64b2420ea30b0ea",
+      "origin": "Release documentation or synthetic verification"
+    },
+    {
+      "path": "finvis/__init__.py",
+      "bytes": 126,
+      "sha256": "b97dbe8391c5246261d09741ae8f92290220e0d84e9e130efa1d53d61e7a07ec",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/actual_report.py",
+      "bytes": 2991,
+      "sha256": "11ebdce35ab976018ba7f75ca5d73cac062f06d9f2758776ac9ebe7fab9c0e8e",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/agent_eval.py",
+      "bytes": 10134,
+      "sha256": "79108ed8cddb4b45445dc1436b45268e3eae8479ec0670baffc2212d05fe8326",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/agent_providers.py",
+      "bytes": 19878,
+      "sha256": "83b79e60e52891f14c05bc043cb251e4b58dacfb521c8ff69621c2a5b43000eb",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/agent_reconciliation.py",
+      "bytes": 42214,
+      "sha256": "9f54ab1d29b331b798ccb472f6bbf02fbc279eaf7f422676fdeb4c4fd42afda5",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/agent_schema.py",
+      "bytes": 16618,
+      "sha256": "3cadaccaa91304d27a5809f5f2a9647f140dee6e47559bb13475b74d9fb0c94b",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/agent_understanding.py",
+      "bytes": 15104,
+      "sha256": "5f80ad536b99c8d25fc046935f986c45f315965b081226f2223f76e89902033d",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/amount_basis_answer.py",
+      "bytes": 5266,
+      "sha256": "ec19f4edccb7db12d8bb22c8e3a6f8f7fb0e8be74548152a294c5826323165d8",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/application.py",
+      "bytes": 13102,
+      "sha256": "34e0ad0a9a6fd9715f9871fbc73cf51c673dca4d7eb0206d099b6c139c741bd7",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/calculations.py",
+      "bytes": 5887,
+      "sha256": "4936fa6088dd9c6192c7027ab7f04ee8e02591be1ad5c496fb9fde3b4d065405",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/calendar_literals.py",
+      "bytes": 5539,
+      "sha256": "d2f5e1cb401c6e33e2f3edd3ef00fe762021bced4c016da1d790c0fb4a6444d4",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/clarification_obligations.py",
+      "bytes": 8912,
+      "sha256": "6d3409ad154eead0000a9b89dbae590ab5b16861b1b7a86d9ad4102d9b8938a9",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/competition_launcher.py",
+      "bytes": 11856,
+      "sha256": "ce29df0aa794800a22b9728cb890e8719724f5a48820f4f748c394470bf63fde",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/competition_reset.py",
+      "bytes": 7547,
+      "sha256": "938ba0871d36bd5ae7a64017390b898c021b149309d59d9dcf3d4ece00fbc1c8",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/compound_binding.py",
+      "bytes": 25408,
+      "sha256": "6b1aef02e01fe31662d89c8b90f5edb3d898b285b579a57be16feb6e8cae0987",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/compound_binding_support.py",
+      "bytes": 16188,
+      "sha256": "9d08989bc8d12c611513555c4fcc46b8bd04073facbb6876290db2ed4ba6e6a3",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/compound_discourse.py",
+      "bytes": 8942,
+      "sha256": "2c784f5ce3e07ec71969cebebfcf67c2a7a554ae43e9c49f42a4d5cf9224e996",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/compound_evidence.py",
+      "bytes": 8215,
+      "sha256": "ea19cc8188d4191a27bc03baed6ef267d60213d98e5c4917ea7d34923ce0db1d",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/compound_future.py",
+      "bytes": 30517,
+      "sha256": "dc888a208e868e121a3b3814622fba2ba206474bb31aba54cb3a9418cf7994b6",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/compound_meaning.py",
+      "bytes": 39911,
+      "sha256": "27522527e7f78e29ff9f56b7a845aff5b5e677e231174bba53be62c912b2fae6",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/compound_payments.py",
+      "bytes": 21967,
+      "sha256": "c005cadfab1d95af4c7b4d9f98b293ca66414077699173c6cedcd1fd0e47a1a8",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/compound_premises.py",
+      "bytes": 9691,
+      "sha256": "0149639b57342ebf5d1bead3fa7af49a1558492378429d74327f6cf6fd435bb4",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/compound_support.py",
+      "bytes": 14032,
+      "sha256": "2fd2791c8b13bd4e4e098f8daac85267491ae683920c33b12f07c43fc0f4093a",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/compound_workflow.py",
+      "bytes": 28175,
+      "sha256": "3eb657de4bd41a95df01d37b3728ae37c0c30d4fc9f367a1d5f86b242d194652",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/current_balance_review.py",
+      "bytes": 3319,
+      "sha256": "2b0383eea2df3fb3c01508a5692a011d573e9276b0885f07f9a2e64545eacd3c",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/decision_baseline.py",
+      "bytes": 19417,
+      "sha256": "983f976d4cfc93dbf1151797ed9d7151bf977e312a228a44a55e459c5c643cce",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/domain.py",
+      "bytes": 17084,
+      "sha256": "fc56f7f8e25b4c6b721d797455d0be243ebc27960533208dda2164a895d7e324",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/engine_inputs.py",
+      "bytes": 20065,
+      "sha256": "6cf42f42eb0bb8bdff436652076702554043a396f4989efeaa167b92d59cebf6",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/evaluation_binding.py",
+      "bytes": 15545,
+      "sha256": "19747578a713ecd219eec732e5e5d13c8769f02d5660e696bf0477b43a129173",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/flow_direction.py",
+      "bytes": 861,
+      "sha256": "ec0de43a84fa1181785aac0515c3d9d1648f1b086bb07327838ae0f40f64ad5c",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/future_adoption.py",
+      "bytes": 28289,
+      "sha256": "370237d60d10afdcd6792a2b1ac4f43d89260ebf56260cea5cb72e40244fcdbe",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/future_experience.py",
+      "bytes": 24823,
+      "sha256": "393a4c39c603e2492ed72cb85c6018815410e37e4506c22cd3641b9be99ea105",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/future_explanation.py",
+      "bytes": 23194,
+      "sha256": "37fbd17c9aa2d5db54e7bd12ed5416206b6e43c1b6354e3b4348491ddfd94aac",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/future_followup.py",
+      "bytes": 12897,
+      "sha256": "da480b9af65ec582ddf52eabca33ba466196174b058814de3180feedabc4ba1e",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/future_legacy.py",
+      "bytes": 11007,
+      "sha256": "2e6073d30565736f582550109ec02635267043d9f569bb7504dda4315dd5077c",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/future_memory.py",
+      "bytes": 16801,
+      "sha256": "8b5cd347b0edda36d5409b99fb168c677b38f8ebaa21942bfe92d7d0274431c6",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/future_space.py",
+      "bytes": 34198,
+      "sha256": "884c301d6c1b64c0e8348c6e3e3c7b214a076e0ce81d3c4262704762949e412e",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/future_timing.py",
+      "bytes": 10308,
+      "sha256": "8ff12260b3d4c19e4000aad91f63a9d5ccc76e80f88e8eb08a29a69e1e07fe86",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/history_actions.py",
+      "bytes": 13930,
+      "sha256": "1efc68d9f41d055799c9397090d0633079d62ad4a589d480a1356ff9b9f75e8f",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/history_workflow.py",
+      "bytes": 10048,
+      "sha256": "d6fd0902fc7167e953ebad78917c9768ff91596f1bd5b27bb874daa025306cbd",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/i3_workflow.py",
+      "bytes": 38126,
+      "sha256": "d1c2fb9a065c600fe8cfb537a76f1fac1c5acf288f19a9deee805932f19dcf69",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/i4_commit.py",
+      "bytes": 15821,
+      "sha256": "f1ccbd876f4930fd88c16467fc1c4d652dc5701757d55d8d73c26775f8feec92",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/if_interaction.py",
+      "bytes": 22127,
+      "sha256": "6cb7398068d05dd244248d8369e7c70a4574bae551506eb70e5e437c23c5db14",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/if_interpretation.py",
+      "bytes": 8556,
+      "sha256": "3ffde5aa62a78e8b97cc5861901393780f47841991c02793aae4e39d35f0f9f8",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/if_judgment.py",
+      "bytes": 12736,
+      "sha256": "f9b5f7c5e1f7b2b6e48e8278581d027c98d312617298b515cac8906b830067be",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/if_lines.py",
+      "bytes": 17897,
+      "sha256": "31a15e2e0225aba3d3ce95c7aaccbf567a3401dc9db37203f8971a9bc32edecc",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/interaction_meaning.py",
+      "bytes": 40109,
+      "sha256": "40a7e77d15c306fdbeb8381565c39be04fabfd720bc4c442df3bd15d5ba62a69",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/interaction_review.py",
+      "bytes": 20825,
+      "sha256": "7662ad7857d89848f385c50b3044aa5823fcd2b613ab0e34e6cb10425173e6d1",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/lifecycle.py",
+      "bytes": 15996,
+      "sha256": "29fa2a29ced157dae20ea6a4c8ef68743048cdb6ab93ced4226b73bd131c51c4",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/openai_provider.py",
+      "bytes": 3051,
+      "sha256": "106b1e5afedf554386851fc263e44a291934c92c1d845a0bb8c39f7f9122a503",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/openai_schema.py",
+      "bytes": 2555,
+      "sha256": "0aa0c94a54c8c6fcbab7fa7fee8cffd70bbb3b982a44039ac38afbc2baf3c967",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/openai_transport.py",
+      "bytes": 5992,
+      "sha256": "0538fbd9b29b73ee63032dfd96194eb05a763b0efc1ec4dcd767ed2782b9c82d",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/payment_amounts.py",
+      "bytes": 8699,
+      "sha256": "279ed0dd0b101903d848a171b4a8da1e771a0a4536c7388537609608f9a1172d",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/persistence_evidence.py",
+      "bytes": 3914,
+      "sha256": "c8dd054c4df313616e16da3bd78ac7344d3d5c825b0a4eb8a2d386401883169e",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/persistence_schema.py",
+      "bytes": 8728,
+      "sha256": "24c15fe70ad200d9a137ce782a0f52ced48c298d28b029e4ae031587b92d8591",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/persistent_world.py",
+      "bytes": 26996,
+      "sha256": "616f48ae0004a888066e9a92a1282ccfa5a7265e55df17b50090e3ae1ea78202",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/plan_reality.py",
+      "bytes": 36771,
+      "sha256": "d25fde0a037b755d86f16a2947ac7d02f57abc98229d766f0c03e11fdb0dcef7",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/platform_storage.py",
+      "bytes": 14498,
+      "sha256": "4e55cccfc497670b3089226c69d5b2f8cd228316a8c6a157018e2adf0f601062",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/ports.py",
+      "bytes": 1604,
+      "sha256": "e8314552e97c4e2c55b0293a5effe535a9f24886e95c1ab866d7a797c9dcbf5f",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/presentation_policy.py",
+      "bytes": 1600,
+      "sha256": "4db68e2509654c4d005643410db755c85cc589b8ce5337b99c9c6fe94f6d9aac",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/provider_selection.py",
+      "bytes": 6796,
+      "sha256": "e89a391c60aaa79d24f428945140cd5af05477fe706769de5d144446519f4015",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/reality.py",
+      "bytes": 3527,
+      "sha256": "c81e621e54c79ded47cba0fa72b2bcad9178294cd09c74c4f5d47691d30e923f",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/reality_routing.py",
+      "bytes": 5318,
+      "sha256": "836c780afe8281f50633fd710af74696a29b18daa71ccdd1d6b04c8c790c2afb",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/reevaluation.py",
+      "bytes": 9855,
+      "sha256": "b7d675e2a66b24589acb3e1e091e314cbcde535f3852d6a050011ea7903a6b61",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/replay.py",
+      "bytes": 5537,
+      "sha256": "dcd6493fce3c43775f69b105e913794fff92482364c9db8c410ffc023f79418d",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/review_preparation.py",
+      "bytes": 15603,
+      "sha256": "9eeb3baa02fe76fb9d6154b6bf10bbb433d9260aa4657829cd97e7c347057193",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/reviewed_proposals.py",
+      "bytes": 22365,
+      "sha256": "411a53636922b9446da9cb727b749c1e3ac774e67914bca0df4a9406a0bf0dd1",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/simple_planning.py",
+      "bytes": 17830,
+      "sha256": "dee56a90567a8f94464f51355548466a13b47e9de7686c3e4d370a2d56e5c977",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/simple_surface.py",
+      "bytes": 9932,
+      "sha256": "f466e6df9c253c7e9455107645a53c18d66953c6969ac5db3b316fb9004caf98",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/simulation_entry.py",
+      "bytes": 11863,
+      "sha256": "87d9e36006c973024ab696297d07b0f10c239d61a5c16f408aeb07a6c73befc1",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/store.py",
+      "bytes": 3447,
+      "sha256": "205a255948228f2fbda9bb2a171cf165fb614d6adb99b6a41e5deef62a639352",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/story.py",
+      "bytes": 5676,
+      "sha256": "7bb8527e5e1cb69174384a22fd748837c21f78672084112a35a0cde55952f63a",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/synthetic.py",
+      "bytes": 2545,
+      "sha256": "4b375ddef11066bc77a381023fa86d7cc82072849453ae8f3ee0bcc06b2e0d17",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/user_first_review.py",
+      "bytes": 1403,
+      "sha256": "14b086873725fe80f0dcdc60b4fa5304e6ada633e8d4a8559e28648b2e4a8e6e",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/user_runtime.py",
+      "bytes": 9375,
+      "sha256": "3635f927301a7cca3d5fee78d1385888ad7c9dce455ca630a2007b19ba3592ea",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/web.py",
+      "bytes": 40386,
+      "sha256": "9b69bbe26127e3dee3cc6fd29ce6b2dbc04dfe51c7af27790c2da1ee3af06abf",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/world_application.py",
+      "bytes": 9659,
+      "sha256": "ad39bd4fe4edcacd52a66f37d4089015b552348eeda68253f048cfe9700a9111",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/world_commands.py",
+      "bytes": 13936,
+      "sha256": "dce9b5167bc0d75ed5cf53b8bf89d1957e00626feb74de791239abde19e5587c",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/world_domain.py",
+      "bytes": 30301,
+      "sha256": "3e7046c4484055496ea6f8e0e3924fc02194bbff79196fae7cfdfaaa25103a13",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/world_fulfillment.py",
+      "bytes": 18425,
+      "sha256": "91671a49dd935aef8fc81a4f204596c1a94e4126e5c7cbcd02d403ffe6d0593d",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/world_history.py",
+      "bytes": 9433,
+      "sha256": "440f73e9acc14bef542680c2eabae10311db4948df1d881491fab8c232ee4764",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/world_history_replay.py",
+      "bytes": 8463,
+      "sha256": "dbed3752c84ee8e8733901ff0dc47172bc40867e7dc3b4beed8daeed78f07e91",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/world_liquidity.py",
+      "bytes": 2400,
+      "sha256": "f90959198b0fc507e9b38a5a1b8531ce88af57539b3a4765f03ad8d8fafe2ca6",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/world_planning.py",
+      "bytes": 44893,
+      "sha256": "98c36eb7f5af54eb6c976a5f67518a0d51e1185a78419a207595913a3a986fee",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/world_projection.py",
+      "bytes": 14359,
+      "sha256": "ed2598f43d210eaeda43c9f6eb5e909d0772a0cfd5b23254cb5ee8c716a5dbae",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/world_replay.py",
+      "bytes": 42510,
+      "sha256": "18b308b324cf22b2a0718fefd478c6f4516953b6f4ba613380cc78dfce84c5cc",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/world_serialization.py",
+      "bytes": 8284,
+      "sha256": "c66e31fd2e3d1072be713135c3c07971580c1a2ce83be90322d350a013153995",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/world_settlement.py",
+      "bytes": 26609,
+      "sha256": "35b4abd6490c210d420076be6102eae393891a56a4d08cc3d366bb16625dbd19",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/world_store.py",
+      "bytes": 37185,
+      "sha256": "f96e825f7baac3879f0e4d6fcdda6b5c53fb9b4b049941dfb3906f01bbd85e0d",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "finvis/world_values.py",
+      "bytes": 26753,
+      "sha256": "efa0a275717860e0bcdd80e00a17a9ef9921fe25e0842efccc6d5cae7e90f1f5",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "release_tools/browser_host.py",
+      "bytes": 1924,
+      "sha256": "d4b5732acff523bd6da784699cd5e7e265c1df44ed915e1be467ae36edd3d3bb",
+      "origin": "Release documentation or synthetic verification"
+    },
+    {
+      "path": "release_tools/chrome_e2e.cjs",
+      "bytes": 26335,
+      "sha256": "f72e12cf1e79704363a336b9ef4427061cb10bc4543f7270c43bb77f9bb936a5",
+      "origin": "Release documentation or synthetic verification"
+    },
+    {
+      "path": "release_tools/run_tests.py",
+      "bytes": 1475,
+      "sha256": "e40201299662848cd978ac24e820607455a3972d8221ef232475dcf5263e0d4d",
+      "origin": "Release documentation or synthetic verification"
+    },
+    {
+      "path": "release_tools/synthetic_fixture.py",
+      "bytes": 1139,
+      "sha256": "5539e5814959aff44f0d487b740f94265022738ffac83a3699430516be528887",
+      "origin": "Release documentation or synthetic verification"
+    },
+    {
+      "path": "release_tools/verify_release.py",
+      "bytes": 2608,
+      "sha256": "9226b2fd1bbdbe40fb64c52945cb3752631217b62b85b7ce42adda0a62e78e97",
+      "origin": "Release documentation or synthetic verification"
+    },
+    {
+      "path": "tests/__init__.py",
+      "bytes": 79,
+      "sha256": "d3fe45d4c17420a05b41b56c2c09a5b8deeae6ec818ee61d23e42d908d27a92b",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/d1_process_host.py",
+      "bytes": 1284,
+      "sha256": "d49bfaf6f414e650afc90270a59dd9fb56a4ef89c8d3cedd2c34230d0587c002",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/graduation_trip_host.py",
+      "bytes": 5455,
+      "sha256": "90d9e8c3f932375137aa103ec679b20b81cf690e4054ad13e017310bfda541a1",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/http_support.py",
+      "bytes": 419,
+      "sha256": "d7dcef201597d9be2efa49c552b27582835d0d53fafea3e7b3a10c7fe60ee00b",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/lifecycle_process_host.py",
+      "bytes": 3467,
+      "sha256": "2e9fee07512b866d94d7d8cf69660944c03141006c45b501e8218d703dc36e5b",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/simulation_metrics_test.cjs",
+      "bytes": 2991,
+      "sha256": "6a36a2a1e6ad5cc6af8fa991ff8c7f2f474970bc107331df441c2b82d3be7b07",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/test_actual_occurrence_agent.py",
+      "bytes": 18205,
+      "sha256": "563a242f8fb7d1023acc9386ac483ae738a237ef5abc93fa732434eb022c8dcf",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/test_actual_report.py",
+      "bytes": 7800,
+      "sha256": "a416e8d5b57a370184f7343f8029fc60ad489dda0564b6d4b8e2a1af0095adce",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/test_actual_transient_continuity.py",
+      "bytes": 8602,
+      "sha256": "fa464c3ac66d95fc157d49b70231b442daf62f7da80c8fc12ca4481681ec7956",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/test_agent_reconciliation.py",
+      "bytes": 40085,
+      "sha256": "2c35b3424df6e988d57a6adab42b44154c03fc24578ee31b41e5ebb16f6d3dff",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/test_agent_understanding.py",
+      "bytes": 32380,
+      "sha256": "34f252d67adc854f67ccccfa8a00d5d781ab4871d641987b5423b3c1ab1c7ae1",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/test_competition_environment.py",
+      "bytes": 11934,
+      "sha256": "a2e54097ca44eeff60bb3de71230e0ff51f90b8406b0f95fd73ba903daacea8c",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/test_competition_reset.py",
+      "bytes": 11860,
+      "sha256": "c9146c07ec2b408fbece670897d34f1469ebf5a4bebe7ac52a326b9d73d7ef00",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/test_composer_completion.py",
+      "bytes": 3368,
+      "sha256": "b2b1155c3758291b7aa7afdf927442a30bfc6d1d9b361dc35cfd375ae3cc3ccd",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/test_compound_future.py",
+      "bytes": 19095,
+      "sha256": "4cd657a279e9298b6c28e6e4e7c9e93f24da60027522e9689958ab4081b34758",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/test_compound_workflow.py",
+      "bytes": 31219,
+      "sha256": "485016330f4f4c1510689b6a41127fcec06c8571e618a19a67fb5b43f70749b7",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/test_d1_http.py",
+      "bytes": 2903,
+      "sha256": "eab460c513db1b50a5c64476a084ea464c1ac6f935ab76d9818a11748d7afbc9",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/test_decision_baseline.py",
+      "bytes": 18939,
+      "sha256": "3f7c331fb3b06d82de0c5ec5642ef8c4743c9d627a1f07d07a9d3b70cb2a6516",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/test_future_adoption.py",
+      "bytes": 21313,
+      "sha256": "835202c09fa2b0c7f7703b17530ef25cb74ac1c0ca74f0dcc5bf173ba39f8ee1",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/test_future_experience.py",
+      "bytes": 9708,
+      "sha256": "095b5523f31aa62e7cf184c5615472d75b0bac01277dd8c18393d389e523afbe",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/test_future_space.py",
+      "bytes": 17780,
+      "sha256": "5bb8e61ada6631e2ae111c48f532051f1d0a7b79d2c5f5e42236a37583650f39",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/test_future_timing.py",
+      "bytes": 12506,
+      "sha256": "ed3e19e77df89fd76732f3b2e9f112c7ae6a3c4fe94a13f8d99c1661aef92320",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/test_generalization_gate.py",
+      "bytes": 21976,
+      "sha256": "d755aa52d17d2952ef213b61aaa2417d41c12d10b153f4fae975a38a36fbf612",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/test_graduation_trip.py",
+      "bytes": 2907,
+      "sha256": "5d14cefaa94b321dafc8e158a3413ae688c5a2ef8ce7f2c6747f29328f16f295",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/test_history_actions.py",
+      "bytes": 15877,
+      "sha256": "e9fb624d86cc472a467b9abed7555c14caac4920f29d177b3b203860c24d2de3",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/test_i3_workflow.py",
+      "bytes": 12713,
+      "sha256": "c84c24f318f42064a636bd47e7255aa06e2c411d44aa6e656bbc24e72feefb6e",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/test_i4_commit.py",
+      "bytes": 13369,
+      "sha256": "c17acecfa5f32667df48e2e507c7be6d11aca37655aa6fbd782c979fa0f63ab9",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/test_i4_http.py",
+      "bytes": 6948,
+      "sha256": "b7ed1bcdb728c8b9cccb51b86082b16dac4d2ea5f5feba26d4defd592adedf9f",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/test_if_judgment.py",
+      "bytes": 14672,
+      "sha256": "07239e818aa107001b4287fb6c605706179323228274d45634a6694660302dbd",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/test_if_lines.py",
+      "bytes": 17884,
+      "sha256": "f113e36fe05fbbf293c094b813ba6fa4b346f0f090625a4ef7879003ff3c8388",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/test_interaction_simplification.py",
+      "bytes": 16703,
+      "sha256": "0d3563908ef47303ff5ada3b431082ea0ec2d8417ad1255d85616cf2fffaecc1",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/test_local_ai_connection.py",
+      "bytes": 14584,
+      "sha256": "c709f637ad382ff74cbb0584c132420c36197a841bc863332b2cc7ad214d3e54",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/test_openai_request_compatibility.py",
+      "bytes": 8144,
+      "sha256": "0676574e65cae7ba2c2796eee2a6925cf73defe6010397cef131a74164703288",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/test_payment_meaning.py",
+      "bytes": 13469,
+      "sha256": "98c3d3bc91b161762519bf5dfba58419000102e8cfbde079c268163b5b43a4b4",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/test_persistent_world.py",
+      "bytes": 38937,
+      "sha256": "05fbbcb5b22a662675b7bc9d94a12de2c616a33bfed846378370c303312577e5",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/test_plan_reality.py",
+      "bytes": 19967,
+      "sha256": "0f61a7f136e88cb3098fd45eeeeb8eb153407eb8d661360ab737ebf09569f7e3",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/test_plan_reality_http.py",
+      "bytes": 3653,
+      "sha256": "5b1844c043ad1f3e34b66de60537a701c68e6c062535f94fde48cf6e20f25017",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/test_platform_storage.py",
+      "bytes": 12128,
+      "sha256": "1771df86d5d5bebf45b72e742b3defbefa2b0aafdfaedfecbb27f7fafd010f3f",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/test_production_openai.py",
+      "bytes": 16313,
+      "sha256": "260edb891bdb61906dfdee1ab520df7db8bef28b09a791f5d998f53dea93aa94",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/test_s2_history.py",
+      "bytes": 10108,
+      "sha256": "7f7235c3d827132bc64114877811b073c584fde4899bcd547b2d4dcf291c7ad7",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/test_session_openai_key.py",
+      "bytes": 7294,
+      "sha256": "56ddf3a44952641556c4b27c97ee0094f5fc4283e25e774644134f35e46a011b",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/test_settlement_expansion.py",
+      "bytes": 28541,
+      "sha256": "125d0510a4b7ce6095dc7d620c0ad6c998cfcd75d752b1bb1d20fd09f3204d5d",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/test_simple_surface.py",
+      "bytes": 8038,
+      "sha256": "bf417ceaa8a8186d485c642cc0bbedc04851d044c9d982537026dbb3fe645469",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/test_simulation_entry.py",
+      "bytes": 6442,
+      "sha256": "eeb1618bb7f1b752f229ba1d33fe38c98fd24a056e0f68ea354fb843a14f3165",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/test_simulation_surface_v2.py",
+      "bytes": 4976,
+      "sha256": "b7a41ab431bbb086f7620ab5cd108213cc396c8b468f905a53509efcbb81b932",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/test_why_dialog.py",
+      "bytes": 5470,
+      "sha256": "ef6230225c1ee158bc02d54570eddc6f7a429f1ab8e0da5f039b7c9adb0f46c3",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/test_world_application.py",
+      "bytes": 25616,
+      "sha256": "d32b2dc6cf920308003f515137b923f36e163abda99d91f62e15a8118a55d0f3",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/test_world_assets.py",
+      "bytes": 21003,
+      "sha256": "dddf1962e5c3a351ff8ef80f5d0a9235fd60aac63b52a6a0943b07d31030a2c8",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/test_world_mutation.py",
+      "bytes": 38242,
+      "sha256": "be8ab0b8eb3a3801d402f068001ed1a59330447f1e9c7cc6c1d8b534f355307a",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/test_world_planning.py",
+      "bytes": 23377,
+      "sha256": "d9aca966909a726431463c873223d8d3a6d0ed4110256f260e397b62d544c660",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/test_world_replay.py",
+      "bytes": 23253,
+      "sha256": "e3d0347012b954593ef1241c365be39d7285d9c85aaebfe638f12d726aceed92",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "tests/test_world_settlement.py",
+      "bytes": 40871,
+      "sha256": "f58f7169d98da115a3420fab64b10590582acdd4d81569e67aaf4177db187026",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "web/app.css",
+      "bytes": 9118,
+      "sha256": "2deef03b26a137a6df3b3e0b9ffe18bf5244bfac8704e717fc67ae1864c43aa0",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "web/app.js",
+      "bytes": 12294,
+      "sha256": "772f7c6b3f9fb5b58dc630458cab6599b3d1982807eee36558bfc90cee4d6816",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "web/competition.css",
+      "bytes": 1869,
+      "sha256": "fc181dbe501867e14f3746005c5576d4351e32e38cde6995ca25f6574e077cbf",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "web/competition.js",
+      "bytes": 8724,
+      "sha256": "58480846d76e1623f346c0552fd16a825a50de3cbb7ccf3fbf879186814ae2db",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "web/compound_meaning.css",
+      "bytes": 4675,
+      "sha256": "b659155ad0a533a9115de77c25d9ab7ab85ca80a346c85274dac44b70826c447",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "web/compound_meaning.js",
+      "bytes": 17631,
+      "sha256": "35ea0591e75fa6561503f92b010e0d68f365e69756219de8a009744c3170a0fa",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "web/decision_baseline.js",
+      "bytes": 24217,
+      "sha256": "f556914d6d3c74f1600c6ac970fa8fba967aaa7ff1fef32adb8211a3c47efda4",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "web/desktop.html",
+      "bytes": 16558,
+      "sha256": "d543006ef44118a899a9b37af5fa107ab2659161ae16c37c0d6bb363d3f6f6fe",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "web/desktop.js",
+      "bytes": 11904,
+      "sha256": "f91c502350bcbb2cdcc72803f52955cb0d0b90e9bb5c8649f3058330146a84d6",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "web/display_names.js",
+      "bytes": 3582,
+      "sha256": "942edef5e92b7ae8d4acbbee0324594c167e5b49d9b8582bdd9922bf41d4cab1",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "web/experience.css",
+      "bytes": 70332,
+      "sha256": "694d861aac0c8a5f52b743a7eb546262727ea750c8d67eff4c78527b6eb7b5a5",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "web/future_adoption.js",
+      "bytes": 14743,
+      "sha256": "24457fb5d62e5657e37fde1f68117e55d61e9788a72dd3e8fc744ba01b3ebc7c",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "web/future_experience.css",
+      "bytes": 11654,
+      "sha256": "162537f52ac7b9dca068468c0b011a794f63cf24ca87a036a7a0d7432d66fc8b",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "web/future_experience.js",
+      "bytes": 32820,
+      "sha256": "454cb6fba9b80823b61ee4e3407bbba3391357897bf32430b7c8ab6226a27c87",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "web/future_explanation.js",
+      "bytes": 7286,
+      "sha256": "4d12832bc1af1a72393019e25a6efbe0b4ed3dcb642f91666c64bc76eba18bee",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "web/future_timing.js",
+      "bytes": 5453,
+      "sha256": "c53177a1d9a72bef2dd33318d1414cd69aa02b0b0915ee490a5fee43196ff70a",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "web/history_actions.js",
+      "bytes": 16556,
+      "sha256": "43c7f9ec01a27cc5d20ef82f148c750fb3d5e80f18c29215f99b5b45e1752854",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "web/i18n.js",
+      "bytes": 58460,
+      "sha256": "50b6194a0d97c5e996f8149e761d964114d8c4989ecb1c2195882d7abc3cae54",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "web/i3.js",
+      "bytes": 60884,
+      "sha256": "b12c67524cb8ad01880283548be0f256c3f0bc573ae5b548451be626963ed043",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "web/i4_home.js",
+      "bytes": 13165,
+      "sha256": "85200668c7e85ed09a704ac93d4d5f0b177a3670c2803f329a5b4e464396ad70",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "web/i5_pages.js",
+      "bytes": 19522,
+      "sha256": "3f2b0b6fa52ce9e11308218ae675211e4ca2eaaab9e2c2e504be63732b91cea1",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "web/if_judgment.js",
+      "bytes": 9067,
+      "sha256": "416f84049fce5cd865df8da5b31b696a56d4887d0a4575dffdae5fd818918c5d",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "web/if_lines.js",
+      "bytes": 29181,
+      "sha256": "bff5089075961bb1ec9065ad7220019283876bd1b8706e6f563f1f1760c67c5d",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "web/if_money.js",
+      "bytes": 4460,
+      "sha256": "8d0f7c3550e60bb0c8e4815beb34185af153b1656d7b31785fe1e71dc908c380",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "web/if_selection.js",
+      "bytes": 4317,
+      "sha256": "fb6e6732875c237dceda03acb7ed6bba0f0f3df0163fa9153e284224ac9af147",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "web/if_space.js",
+      "bytes": 54278,
+      "sha256": "9023ad647b109168c5351667d421203e30e99fc7a6bdfd3050fe3b03292c9aff",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "web/index.html",
+      "bytes": 7884,
+      "sha256": "9dedf2d0ebb220320d31784d69086c4e93f379285a959191eb5d9d0c7aea5d99",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "web/interaction_review.js",
+      "bytes": 16686,
+      "sha256": "7f9576cf4f41170714e3db2e91f8281e43e34f7ec82ff675b8aa853fd26b98d7",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "web/mobile.html",
+      "bytes": 13619,
+      "sha256": "793a9d5b2b5e01c9ae6244a9f65d4959b2b4ac64d56825febfa45458ee585dc4",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "web/mobile.js",
+      "bytes": 10333,
+      "sha256": "ddcaf6812812b266d384988ce7337efc9766e5561900bb54c599e9f2bf4b7d70",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "web/plan_reality.js",
+      "bytes": 26446,
+      "sha256": "e2c8ce24f05233a5375c36d32f030ef55f652e399252ec0b955f16d255f78211",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "web/reality_evaluation.js",
+      "bytes": 12978,
+      "sha256": "ae13ea909396561d2af51697ce34e97617aa91a48e4e08d29be86d8dd70d7f48",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "web/s2_history.js",
+      "bytes": 14620,
+      "sha256": "8116f5a8c67975227e54ae72e0aa64215513ead3838ed778154d4fa3cce69293",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "web/semantic_icons.js",
+      "bytes": 606,
+      "sha256": "13f17cfdf393f06312e39f72687afdd2f1df18121235d34aa55327d7b0f4345b",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "web/shared.js",
+      "bytes": 39946,
+      "sha256": "cae571a84c184947294f7b64aeb2c03aa8829aa46626e266cbdffbac9dd3dd3a",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "web/simple_planning.js",
+      "bytes": 7651,
+      "sha256": "a1b4f6934df9d5fed4731b72d6cbfe052d5304c275db1bb832f82fbbeb92be6c",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "web/simple_surface.css",
+      "bytes": 33822,
+      "sha256": "d4764a4487eda40fba423564dd5fd724c0babf635820592ad79ec18922861748",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "web/simple_surface.js",
+      "bytes": 9145,
+      "sha256": "39d998400f83f0e6d9022ac5e61bba527f3b1d1b31ba4a713ff16297036663b8",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "web/simulation_metrics.js",
+      "bytes": 857,
+      "sha256": "42b15e574c7da963dd9cf363c627e28b16e13797d8fd5d6d9c55a9592f253d6d",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "web/simulation_surface.js",
+      "bytes": 10411,
+      "sha256": "8fdb7e0bd43094621efaf3e7c4a21ff76cfd0db3859f8b97f2de4b86ef01fb33",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "web/simulation_why.js",
+      "bytes": 4975,
+      "sha256": "1c88e549c50900a20e39920d13671f3aea34a4b87e1bb81aaedf45cf9d652ab1",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "web/styles.css",
+      "bytes": 2818,
+      "sha256": "49975beba455d8fec3b20992d36277447b274d696d6ce9e79e8c31007056018b",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "web/theme.css",
+      "bytes": 44007,
+      "sha256": "73bb277bf829c7beb7a92ab8086664d8b80d95df46dd86042adcf098d0528f0e",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "web/theme.js",
+      "bytes": 4091,
+      "sha256": "a7d97abcf6094f63fe82be3177bd4bb2b3f774f559dc72653197b3da758b54f8",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "web/user_first_review.js",
+      "bytes": 3839,
+      "sha256": "29a4abae07f1482d3866322dd98f0f680c42fbeab45bba95412447634229d47f",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "web/ux_state.js",
+      "bytes": 2377,
+      "sha256": "83903e0ffd3c7dd582f18df2abfcd69793b12d0880ea95c966dc1af47796880e",
+      "origin": "Core exact-copy"
+    },
+    {
+      "path": "启动 FINVIS 比赛版.command",
+      "bytes": 333,
+      "sha256": "b566db7909da60652fc6da87ff62b43a1b83a38410bacbb5b2e73709a19c30fb",
+      "origin": "Core exact-copy"
+    }
+  ]
+}

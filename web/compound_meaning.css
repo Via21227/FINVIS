@@ -1,0 +1,26 @@
+/* Compound understanding uses the established FINVIS theme and native dialog. */
+.compound-dialog{box-sizing:border-box;width:min(620px,calc(100vw - 32px));max-width:620px;max-height:calc(100dvh - 40px);padding:0;border:1px solid var(--line);border-radius:var(--ui-radius-panel,12px);background:var(--paper);color:var(--ink);overflow:auto;overscroll-behavior:contain;box-shadow:0 24px 90px #0004}
+.compound-dialog::backdrop{background:#10191780}
+.compound-dialog>header{display:flex;align-items:flex-start;gap:16px;padding:24px 24px 0}
+.compound-dialog h2{flex:1;font-size:24px;line-height:1.35;margin:6px 0 0;text-wrap:balance}
+.compound-dialog .compound-close{flex:none;width:44px;min-height:44px;padding:0;border:1px solid var(--line);background:var(--paper);color:var(--ink);font-size:24px}
+.compound-body{padding:0 24px 20px;overflow-wrap:anywhere}
+.compound-intro{margin:12px 0 24px;color:var(--muted);line-height:1.5}
+.compound-claims{list-style:none;padding:0;margin:0}
+.compound-claim{display:flex;align-items:center;gap:20px;padding:16px 0;border-bottom:1px solid var(--line)}
+.compound-claim:first-child{padding-top:0}.compound-content{flex:1;min-width:0;display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:12px}.compound-claim h3{font-size:17px;line-height:1.4;margin:5px 0;color:var(--ink)}
+.compound-category,.compound-state,.compound-timing{font-size:13px;line-height:1.5;color:var(--muted)}.compound-category{font-weight:600;grid-column:1/-1}.compound-money{grid-column:2;grid-row:2;align-self:start;font-size:18px;line-height:1.45;font-variant-numeric:tabular-nums;color:var(--ink);margin:4px 0}.compound-relation{font-size:13px;line-height:1.5;margin:6px 0;color:var(--muted)}
+.compound-timing,.compound-state{margin:6px 0 0}.compound-timing,.compound-state,.compound-relation{grid-column:1/-1}
+.compound-claim[data-claim-state=complete] .compound-state{color:var(--finvis-inflow,var(--ink))}
+.compound-dialog button{min-height:44px;padding:10px 14px;white-space:normal;line-height:1.4;font-size:15px}.compound-dialog button:disabled{cursor:default;opacity:.6}
+.compound-dialog :is(button,input,summary):focus-visible{outline:3px solid var(--finvis-agent,var(--accent));outline-offset:3px}.compound-dialog h2:focus{outline:none}
+.compound-question{margin-top:24px;padding:20px;border:1px solid var(--finvis-agent,var(--line));border-radius:var(--ui-radius,8px);background:var(--finvis-agent-soft,var(--wash))}.compound-question h3{font-size:17px;line-height:1.5;margin:0}.compound-question-context{margin:6px 0 12px;font-size:13px;color:var(--muted)}
+.compound-choices{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}.compound-choices button{background:var(--paper);border-color:var(--ui-control-border,var(--line));color:var(--ink)}
+.compound-answer{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px;margin-top:16px}.compound-answer label{grid-column:1/-1;font-size:13px;color:var(--ink)}.compound-answer input{min-width:0;width:100%;min-height:44px;padding:10px;border:1px solid var(--ui-control-border,var(--line));border-radius:6px;font:inherit;font-size:16px;background:var(--finvis-input,var(--paper));color:var(--ink)}
+.compound-dialog .primary-button{background:var(--finvis-primary);border-color:var(--finvis-primary);color:var(--finvis-primary-ink)}
+.compound-error{background:var(--finvis-error-wash,var(--wash));color:var(--finvis-error,var(--ink));padding:12px;border-radius:6px;line-height:1.5}
+.compound-source{margin-top:20px;color:var(--muted);font-size:13px}.compound-source summary{cursor:pointer;min-height:44px;display:flex;align-items:center}.compound-source p{white-space:pre-wrap;line-height:1.6}.compound-boundary{font-size:13px;line-height:1.5;color:var(--muted);margin:16px 0 0}
+.compound-dialog>footer{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;padding:16px 24px 24px;border-top:1px solid var(--line)}
+.compound-reopen{grid-column:1/-1;justify-self:start;max-width:calc(100% - 60px);text-align:left;font-size:13px;min-height:44px;margin-top:4px}.compound-reopen[hidden]{display:none}
+@media(max-width:480px){.compound-dialog{width:calc(100vw - 24px);max-height:calc(100dvh - 24px);margin:12px auto}.compound-dialog>header{padding:16px 16px 0}.compound-dialog h2{font-size:21px}.compound-body{padding:0 16px 16px}.compound-dialog>footer{padding:16px}.compound-claim{gap:12px}.compound-question{padding:14px}.compound-choices{display:grid}.compound-dialog>footer>.primary-button{flex:1}.compound-money{font-size:17px}}
+@media(prefers-reduced-motion:reduce){.compound-dialog,.compound-dialog *{scroll-behavior:auto!important;transition:none!important;animation:none!important}}

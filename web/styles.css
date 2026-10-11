@@ -1,0 +1,36 @@
+
+/* Bounded one-time money timing; one chronological representation. */
+.ft-editor {font-size:.82rem;display:flex;gap:.4rem;flex-wrap:wrap;justify-content:flex-end}
+.ft-editor button {min-height:44px;padding:.3rem .6rem}
+.ft-editor input {width:min(18rem,100%);min-height:44px}
+.ft-timeline {margin:1.25rem 0;padding-top:1rem;border-top:1px solid var(--line)}
+.ft-timeline h3 {font-size:1rem;margin:0 0 .7rem}
+.ft-group {padding:.5rem 0;border-bottom:1px solid var(--line)}
+.ft-group summary {cursor:pointer;min-height:44px;display:flex;align-items:center;justify-content:space-between;gap:1rem}
+.ft-group summary strong {font-variant-numeric:tabular-nums}
+.ft-event {display:flex;flex-wrap:wrap;justify-content:space-between;gap:.4rem 1rem;padding:.45rem .3rem;font-size:.9rem}
+.ft-event small {width:100%;color:var(--muted)}
+.ft-shortfall,.ft-negative summary {color:var(--danger,#b42318)}
+.ft-stepped svg {display:block;width:100%;height:90px;overflow:visible}
+.ft-stepped path {stroke:var(--finvis-champagne);stroke-width:2;fill:none;vector-effect:non-scaling-stroke}
+.ft-stepped .ft-groups {display:grid;grid-template-columns:repeat(var(--ft-count),minmax(0,1fr));gap:.5rem}
+.ft-stepped summary {align-items:flex-start;flex-direction:column;gap:.25rem}
+.ft-stepped .ft-event {display:block}
+.ft-composition {margin:1rem 0}
+.ft-composition>summary {min-height:44px;cursor:pointer}
+.ft-editor input:focus-visible,.ft-editor button:focus-visible,.ft-group summary:focus-visible,.ft-composition>summary:focus-visible {outline:2px solid var(--finvis-champagne);outline-offset:3px}
+@media(max-width:650px){.ft-stepped svg{display:none}.ft-stepped .ft-groups{display:block}.ft-stepped summary{flex-direction:row;align-items:center}.ft-editor{justify-content:flex-start}.ft-group summary{flex-wrap:wrap}.ft-event{overflow-wrap:anywhere}}
+/* First screenshot reduction: useful step changes only; direct signed labels. */
+.ft-caption {font-size:.8rem;margin:0 0 .4rem}
+.ft-group summary>span:first-child {min-width:0}
+.ft-group summary small {display:block;font-weight:400;overflow-wrap:anywhere}
+.ft-group summary .ft-change {color:var(--muted);font-variant-numeric:tabular-nums}
+.ft-group summary::after {content:'⌄';color:var(--muted)}
+.ft-negative summary strong {color:var(--finvis-error)}
+.ft-stepped svg {height:60px}
+.ft-stepped summary {gap:.2rem}
+.ft-editor {max-width:100%}
+@media(max-width:650px){.ft-group summary{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:.15rem .7rem}.ft-group summary strong{grid-column:2}.ft-group summary::after{grid-column:1;grid-row:2}.ft-group summary .ft-change{font-size:.85rem}.ft-editor input{min-width:0;max-width:100%}}
+
+.ft-stepped summary {align-items:center;text-align:center}
+@media(max-width:650px){.ft-stepped summary{align-items:center;text-align:start}}
